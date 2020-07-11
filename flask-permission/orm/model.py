@@ -1,5 +1,6 @@
 from apps import db
 
+
 # 用户表
 class User(db.Model):
     # 定义表名
