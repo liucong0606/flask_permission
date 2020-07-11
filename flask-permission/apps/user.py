@@ -12,3 +12,6 @@ user_dp = Blueprint("user", __name__, url_prefix="/user")
 # 用户表
 class User(db.Model):
     pass
+
+
+# 后面写API接口
