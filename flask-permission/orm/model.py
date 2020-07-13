@@ -84,7 +84,7 @@ tab_user_role = db.Table(
 
 
 # 菜单表
-class Role(db.Model):
+class Menu(db.Model):
     # 定义表名
     __tablename__ = 'tab_menu'
     # 定义字段

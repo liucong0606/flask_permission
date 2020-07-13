@@ -17,7 +17,16 @@ def get_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.init_app(app)
     # 注册蓝图
+    # 用户蓝图
     from apps.user import user_dp
     app.register_blueprint(user_dp)
-
+    # 角色蓝图
+    from apps.role import role_dp
+    app.register_blueprint(role_dp)
+    # 权限蓝图
+    from apps.permission import permission_dp
+    app.register_blueprint(permission_dp)
+    # 菜单蓝图
+    from apps.menu import menu_dp
+    app.register_blueprint(menu_dp)
     return app
