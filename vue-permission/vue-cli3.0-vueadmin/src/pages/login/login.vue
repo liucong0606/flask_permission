@@ -21,7 +21,7 @@
                 Sign in
                 </el-button>
             </el-form-item>
-            <div class="tips">用户为admin的时候，能够看到所有的权限列表，其余账号只能看到部分</div>
+            <div class="tips">默认Admin用户登录</div>
         </el-form>
     </div>
 </template>

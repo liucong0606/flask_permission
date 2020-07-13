@@ -2,7 +2,7 @@
   "name": "vue-admin-permission",
   "version": "0.1.0",
   "private": true,
-  "author": "Hui <543245444@qq.com>",
+  "author": "jonty",
   "scripts": {
     "serve": "vue-cli-service serve",
     "serve:randy": "cross-env API_TYPE=randy vue-cli-service serve",
