@@ -28,6 +28,8 @@ def login():
 
     result = {}
     if user is not None:  # 登录成功
+        # 设置cookie？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+        # 未做
         result["flag"] = True
         result["msg"] = "登录成功"
         result["data"] = user.to_json()
