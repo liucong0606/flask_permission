@@ -41,4 +41,3 @@ def login():
     if request.method == 'POST':
         rst.headers['Access-Control-Allow-Methods'] = 'POST'  # 响应POST
     return rst
-
