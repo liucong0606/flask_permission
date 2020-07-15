@@ -10,6 +10,7 @@ role_dp = Blueprint("role", __name__, url_prefix="/role")
 
 
 # 查询所有角色接口，参数args参数 当前页、每页查询条数，如果条件查询，参数为json类型的条件参数
+# 未做前后端跨域处理
 @role_dp.route('/findAll', methods=['GET', 'POST'])
 def find_all():
     currentPage = 1
